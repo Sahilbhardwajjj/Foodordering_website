@@ -27642,6 +27642,9 @@ var _s = $RefreshSig$();
 const Body = ()=>{
     _s();
     const [Listofrestaurants, setListofrestaurants] = (0, _react.useState)((0, _mockDataDefault.default));
+    (0, _react.useEffect)(()=>{
+        console.log("use effect called");
+    }, []);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
         className: "body",
         children: [
@@ -27654,7 +27657,7 @@ const Body = ()=>{
                         placeholder: "Search for restaurants..."
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 10,
+                        lineNumber: 15,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27662,7 +27665,7 @@ const Body = ()=>{
                         children: "Search"
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 15,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27674,13 +27677,13 @@ const Body = ()=>{
                         children: "Top Rated Restaurant"
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 16,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Body.js",
-                lineNumber: 9,
+                lineNumber: 14,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -27689,22 +27692,22 @@ const Body = ()=>{
                         restaurant: restaurant.data
                     }, restaurant.data.id, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 30,
+                        lineNumber: 35,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 28,
+                lineNumber: 33,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Body.js",
-        lineNumber: 8,
+        lineNumber: 13,
         columnNumber: 5
     }, undefined);
 };
-_s(Body, "QYLTbhSURzVZMk0XLC+g7eGwiD4=");
+_s(Body, "8NPwmdwdf6Pod9HuJ5NDD1rlyX8=");
 _c = Body;
 exports.default = Body;
 var _c;

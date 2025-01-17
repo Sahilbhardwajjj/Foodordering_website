@@ -1,9 +1,14 @@
 import RestaurantCard from "./RestaurantCard";
 import restaurantList from "../utils/mockData";
-import { useState } from "react";
+import { useState, useEffect, use } from "react";
 
 const Body = () => {
   const [Listofrestaurants, setListofrestaurants] = useState(restaurantList);
+
+  useEffect(() => {
+    console.log("use effect called");
+  }, []);
+
   return (
     <main className="body">
       <div className="search">
